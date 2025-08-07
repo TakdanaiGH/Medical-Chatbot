@@ -6,6 +6,12 @@ Medical Chatbot using Retrieval-Augmented Generation (RAG) data from Agnos.
 ## Hardware Recommendations
 I recommend using a GPU with CUDA and at least 40 GB of VRAM (I run it on an NVIDIA A100). You can adjust GPU utilization and change models if necessary in the serve scripts.
 
+---
+## Demo
+
+Watch the demo video to see the Medical Chatbot in action: [View Demo](https://drive.google.com/file/d/1CP_nqMJSzqXyVDkMJNB9vjU0lNMNSsGX/view?usp=sharing)
+
+---
 ## Setup Instructions
 
 ### Clone the Repository
@@ -36,6 +42,8 @@ The scraper collects data from [Agnos Health forums](https://www.agnoshealth.com
 - Scrape all pages, skipping duplicate thread IDs
 - Pause for 5 minutes after finishing a full cycle
 - Can be run in the background
+
+**Alternative:** You can download pre-scraped data from [this link](https://drive.google.com/file/d/1CP_nqMJSzqXyVDkMJNB9vjU0lNMNSsGX/view?usp=sharing) to test the system without running the scraper.
 
 Run the scraper:
 ```bash
