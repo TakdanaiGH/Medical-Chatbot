@@ -9,7 +9,7 @@ I recommend using a GPU with CUDA and at least 40 GB of VRAM (I run it on an NVI
 ---
 ## Demo
 
-Watch the demo video to see the Medical Chatbot in action: [View Demo](https://drive.google.com/file/d/1CP_nqMJSzqXyVDkMJNB9vjU0lNMNSsGX/view?usp=sharing)
+Watch the demo video to see the Medical Chatbot in action: [View Demo](https://drive.google.com/file/d/1VB664r1Hdw0J7-7IEgMgCHJzKpb_zPaU/view?usp=sharing)
 
 ---
 ## Setup Instructions
