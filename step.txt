@@ -1,0 +1,15 @@
+git clone https://github.com/QwenLM/Qwen-Agent.git
+cd 
+
+conda create --name agnos-env python=3.10
+conda activate agnos-env
+
+pip install -r requirements.txt
+
+./run_scraper.sh
+nohup ./run_chat_model.sh
+nohup ./run_embed_model.sh
+
+nohup ./run_streamlit.sh
+
+ngrok http 8501

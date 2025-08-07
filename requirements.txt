@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pandas
+vllm
+langchain
+faiss-cpu
+streamlit
+python-dotenv
+openai
