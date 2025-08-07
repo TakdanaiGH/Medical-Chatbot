@@ -29,6 +29,7 @@ conda activate med-env
 ### Install Required Python Libraries
 ```bash
 pip install -r requirements.txt
+pip install -U langchain-community
 ```
 
 **Important:** Don't forget to rename your environment configuration file to `.env` and configure it properly.
@@ -59,7 +60,7 @@ To deploy the website, you need to serve 2 models sequentially:
 
 ### 1. Serve the LLM Model
 ```bash
-nohup ./run_chat_model.sh &
+nohup ./run_chat_model.sh
 ```
 
 **⚠️ Important Notes:**
@@ -70,13 +71,13 @@ nohup ./run_chat_model.sh &
 ### 2. Serve the Embedding Model (for RAG)
 After the LLM model is fully loaded, serve the embedding model:
 ```bash
-nohup ./run_embed_model.sh &
+nohup ./run_embed_model.sh
 ```
 
 ### 3. Start Streamlit Interface
 Once both models are running, start the Streamlit web interface:
 ```bash
-nohup ./run_streamlit.sh &
+nohup ./run_streamlit.sh
 ```
 
 The Streamlit app will run on port 8501 by default. You can find the exact port in the Streamlit log file.
